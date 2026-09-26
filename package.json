@@ -1,0 +1,14 @@
+{
+  "name": "nepal-internet-forum-2026",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nepal Internet Forum 2026 event website",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  },
+  "dependencies": {
+    "nodemailer": "^10.0.10"
+  }
+}
